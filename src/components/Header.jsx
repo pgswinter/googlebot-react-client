@@ -12,8 +12,16 @@ class Header extends React.Component {
                     <div>
                         Hacker news
                     </div>
+                    <Link to="/top">
+                        top
+                    </Link>
+                    <div className="ml1">|</div>
                     <Link to="/">
                         new
+                    </Link>
+                    <div className="ml1">|</div>
+                    <Link to="/search">
+                        search
                     </Link>
                     {
                         authToken && (
